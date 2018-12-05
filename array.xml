@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="colors_array">
+
+
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+
+    </array>
+
+
+
+
+    <array name="vegetables">
+        <item>Tomato</item>
+        <item>Lettuce</item>
+        <item>Onion</item>
+        <item>Potato</item>
+    </array>
+
+
+
+
+
+</resources>

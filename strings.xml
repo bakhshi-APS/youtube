@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidAlertDialogBoxes</string>
+
+
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="fire_missile_title">Fire Missiles ?</string>
+
+
+
+    <string name="pick_a_color">Pick A Color</string>
+
+    <string name="items_title">Pick your toppings</string>
+
+
+</resources>

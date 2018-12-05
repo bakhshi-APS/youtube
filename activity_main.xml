@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="118dp"
+        android:layout_marginEnd="-109dp"
+        android:layout_toStartOf="@+id/result"
+        android:background="@color/dark_purple"
+        android:onClick="ShowAlertDialogBox"
+        android:text="Select"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="166dp"
+        android:text="items here..."
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginStart="131dp"
+        android:background="@color/green"
+        android:onClick="ShowItemsAlertDialog"
+        android:text="Items"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="Items Selected"
+        android:textColor="@color/green"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginEnd="38dp"
+        android:background="@color/red"
+        android:onClick="FireMissileAlertDialog"
+        android:text="Fire"
+        android:textColor="@color/white" />
+
+    <Button
+        android:onClick="Login"
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="43dp"
+        android:background="@color/blue_bit"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+
+
+
+
+
+</RelativeLayout>
