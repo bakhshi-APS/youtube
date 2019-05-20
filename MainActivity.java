@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+import static android.widget.Toast.*;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         fireMissilesDialogFragment = new FireMissilesDialogFragment();
 
 
-        android.widget.Toast.makeText(this, "Changes have been committed", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Changes have been committed", Toast.LENGTH_SHORT).show();
 
 
 
