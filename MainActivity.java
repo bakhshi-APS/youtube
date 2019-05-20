@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         fireMissilesDialogFragment = new FireMissilesDialogFragment();
 
 
+        android.widget.Toast.makeText(this, "Changes have been committed", Toast.LENGTH_SHORT).show();
 
 
 
